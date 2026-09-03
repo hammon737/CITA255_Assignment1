@@ -7,8 +7,9 @@
 
     <VerticalStackLayout Padding="30,0" Spacing="25">
         <Label Text="This is a starter project for 9/3"/>
-        <Button Text="Click me" />
-        <Entry Placeholder="Enter text here..." />
+        <Button Text="Click me" Clicked="OnSayHiClicked"/>
+        <Entry x:Name="nameEntry"
+            Placeholder="Morgan" />
 
     </VerticalStackLayout>
 
