@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Class3_demo/Class3_demo.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
