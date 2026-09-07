@@ -4,11 +4,50 @@
              x:Class="Class3_demo.MainPage">
 
 
-    <VerticalStackLayout Padding="30,0" Spacing="25">
-        <Label x:Name="MyTitle" Text="This is a starter project for 9/3"/>
-        <Button Text="Click me" Clicked="OnSayHiClicked"/>
-        <Entry x:Name="nameEntry"
-            Placeholder="Morgan" />
+    <VerticalStackLayout Padding="30" Spacing="25">
+        <Label 
+            x:Name="MyTitle1" 
+            Text="Some people use farenheit and others use celsius to tell the temperature." 
+            FontSize="32"
+            HorizontalTextAlignment="Center" 
+            TextColor="MediumPurple"
+            />
+
+        <Label 
+            x:Name="MyTitle2" 
+            Text="It all depends on the location."
+            FontSize="32"
+            HorizontalTextAlignment="Center" 
+            TextColor="MediumPurple"
+            />
+
+        <Label x:Name="MyTitle3" 
+            Text="Enter the Temperature in Farenheit and this program will convert it to Celsius."
+            FontSize="32"
+            HorizontalTextAlignment="Center" 
+            TextColor="MediumPurple"
+            />
+        
+        <Entry 
+            x:Name="Farenheit"
+            Placeholder="Enter the temperature in Farenheit" 
+            />
+        
+        <Button 
+            Text="Calculate" 
+            Clicked="Numbers"
+            BackgroundColor="Lavender"
+            TextColor="Purple"
+            />
+        
+        <Label 
+            x:Name="celsiusLabel" 
+            Text=""
+            FontSize="32"
+            HorizontalTextAlignment="Center" 
+            TextColor="MediumPurple"
+            />
+        
 
     </VerticalStackLayout>
 

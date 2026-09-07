@@ -9,9 +9,11 @@
             InitializeComponent();
         }
 
-        private void OnSayHiClicked(object sender, EventArgs e)
+        private void Numbers(object sender, EventArgs e)
         {
-            
+            float FarenheitNumber = float.Parse(Farenheit.Text);
+            float celsius = (FarenheitNumber - 32) * 5 / 9;
+            celseusLabel.Text = $"This temperature in Celsius is {celsius:N1} degrees.";
         }
     }
 }
