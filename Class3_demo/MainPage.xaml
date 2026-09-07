@@ -15,7 +15,7 @@
             />
         <Label 
             x:Name="MyTitle1" 
-            Text="Some people use farenheit and others use celsius to tell the temperature." 
+            Text="Some people use fahrenheit and others use celsius to tell the temperature." 
             FontSize="25"
             HorizontalTextAlignment="Center" 
             FontFamily="Machille Bold"
@@ -32,7 +32,7 @@
             />
 
         <Label x:Name="MyTitle3" 
-            Text="Enter the Temperature in Farenheit and this program will convert it to Celsius."
+            Text="Enter the Temperature in fahrenheit and this program will convert it to Celsius."
             FontSize="25"
             HorizontalTextAlignment="Center" 
             FontFamily="Machille Bold"
@@ -40,8 +40,8 @@
             />
         
         <Entry 
-            x:Name="Farenheit"
-            Placeholder="Enter the temperature in Farenheit" 
+            x:Name="fahrenheit"
+            Placeholder="Enter the temperature in fahrenheit" 
             FontFamily="Machille Bold"
             />
         

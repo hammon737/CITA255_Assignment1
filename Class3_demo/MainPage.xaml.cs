@@ -11,8 +11,8 @@
 
         private void Numbers(object sender, EventArgs e)
         {
-            float FarenheitNumber = float.Parse(Farenheit.Text);
-            float celsius = (FarenheitNumber - 32) * 5 / 9;
+            float fahrenheitNumber = float.Parse(fahrenheit.Text);
+            float celsius = (fahrenheitNumber - 32) * 5 / 9;
             celsiusLabel.Text = $"This temperature in Celsius is {celsius:N1} degrees.";
         }
     }
