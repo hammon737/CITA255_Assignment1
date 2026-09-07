@@ -13,6 +13,7 @@ namespace Class3_demo
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Machille Bold.otf", "Machille Bold");
                 });
 
 #if DEBUG

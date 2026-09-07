@@ -6,45 +6,60 @@
 
     <VerticalStackLayout Padding="30" Spacing="25">
         <Label 
+            x:Name="MyTitle" 
+            Text="Celsius Calculator" 
+            FontSize="42"
+            HorizontalTextAlignment="Center" 
+            FontFamily="Machille Bold"
+            TextColor="MediumPurple"
+            />
+        <Label 
             x:Name="MyTitle1" 
             Text="Some people use farenheit and others use celsius to tell the temperature." 
-            FontSize="32"
+            FontSize="25"
             HorizontalTextAlignment="Center" 
+            FontFamily="Machille Bold"
             TextColor="MediumPurple"
             />
 
         <Label 
             x:Name="MyTitle2" 
             Text="It all depends on the location."
-            FontSize="32"
+            FontSize="25"
             HorizontalTextAlignment="Center" 
+            FontFamily="Machille Bold"
             TextColor="MediumPurple"
             />
 
         <Label x:Name="MyTitle3" 
             Text="Enter the Temperature in Farenheit and this program will convert it to Celsius."
-            FontSize="32"
+            FontSize="25"
             HorizontalTextAlignment="Center" 
+            FontFamily="Machille Bold"
             TextColor="MediumPurple"
             />
         
         <Entry 
             x:Name="Farenheit"
             Placeholder="Enter the temperature in Farenheit" 
+            FontFamily="Machille Bold"
             />
         
         <Button 
             Text="Calculate" 
             Clicked="Numbers"
+            FontSize="25"
             BackgroundColor="Lavender"
+            FontFamily="Machille Bold"
             TextColor="Purple"
             />
         
         <Label 
             x:Name="celsiusLabel" 
             Text=""
-            FontSize="32"
+            FontSize="25"
             HorizontalTextAlignment="Center" 
+            FontFamily="Machille Bold"
             TextColor="MediumPurple"
             />
         

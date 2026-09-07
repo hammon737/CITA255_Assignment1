@@ -13,7 +13,7 @@
         {
             float FarenheitNumber = float.Parse(Farenheit.Text);
             float celsius = (FarenheitNumber - 32) * 5 / 9;
-            celseusLabel.Text = $"This temperature in Celsius is {celsius:N1} degrees.";
+            celsiusLabel.Text = $"This temperature in Celsius is {celsius:N1} degrees.";
         }
     }
 }
